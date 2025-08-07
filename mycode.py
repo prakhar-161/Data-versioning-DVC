@@ -9,7 +9,11 @@ data = {
 
 df = pd.DataFrame(data)
 
-data_dir = 'data-versioning-dvc/data'
+# Adding a new row to df for V2
+new_row_loc = {'Name':'PD','Age':'22','City':'City1'}
+df.loc[len(df.index)] = new_row_loc
+
+data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
 file_path = os.path.join(data_dir, 'sample_data.csv')
 
