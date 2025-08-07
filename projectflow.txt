@@ -5,3 +5,4 @@
 4. "dvc add data/" - makes data.dvc and changes in .gitignore
     - Now it will ask to do: ("git rm -r --cached 'data'" and "git commit -m "stop tracking data"")
     - Because initially we were tracking data/ folder from git so now we remove it for DVC to handle.
+5. "dvc commit and push"
