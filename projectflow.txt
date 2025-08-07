@@ -9,3 +9,7 @@
 6. Now make changes to code.py to append a new row in data, check changes via "dvc status"
 7. now, dvc status shows changes as new row is added to data
 8. again "dvc commit" and "dvc push"
+
+git log --oneline
+git checkout <hash> - git checkout master
+dvc pull
